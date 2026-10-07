@@ -84,9 +84,9 @@ source "$ZDOTDIR/python_env.zsh"
 # ==============================================================================
 
 # Automatically list directory contents upon changing directories
-cd() {
-  builtin cd "$@" && ls
-}
+# cd() {
+#   builtin cd "$@" && ls
+# }
 
 # Dynamic Fastfetch with Matugen Colors
 # function fetch() {
